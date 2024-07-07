@@ -1,0 +1,113 @@
+html, body {
+    background-color: #F27F5E;
+    font-family: 'Arial' , sans-serif;
+    margin: 0;
+    background-image: url(https://img.freepik.com/premium-photo/fresh-vegetables-falling-into-plate-white-background-slow-motion_115767-77.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 1000px 650px;
+    background-blend-mode: multiply;
+}
+
+.login-page {
+    display: flex;
+    height: 607px;
+    justify-content: flex-end;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.login-form .logo {
+    font-family: 'Georgia' , sans-serif;
+    font-size: 30px;
+    color: #f0c45c;
+}
+
+.login-form h2 {
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    margin-bottom: 40px;
+}
+
+.login__social-providers-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.login__social-providers-list-item {
+    margin-bottom: 10px;
+}
+
+.login__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.login__button-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.login__button svg {
+    margin-right: 10px;
+}
+
+.login__button:hover {
+    background-color: #2e2d2d;
+    color: white;
+    border-color: #2e2d2d;
+}
+
+.login__button--facebook:hover {
+    background-color: #3b5998;
+    color: white;
+    border-color: #3b5998;
+}
+
+.login__button--google:hover {
+    background-color: #db4437;
+    color: white;
+    border-color: #db4437;
+}
+
+.button--outlined {
+    border-width: 2px;
+}
+
+.button--full-width {
+    width: 100%;
+}
+
+.login__join-now {
+    text-align: center;
+    padding: 10px;
+}
+
+.login__join-now a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login__join-now a:hover {
+    text-decoration: underline;
+}

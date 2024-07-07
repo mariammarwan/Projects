@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantry Palate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Pantry Palate</div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="#">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg" alt="Person Icon">
+                    <span>Log in</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="recipe-content">
+            <h1 id="recipe-title"></h1>
+            <div class="recipe-interaction">
+                <button id="save-button">Save <img src="https://cdn.icon-icons.com/icons2/936/PNG/512/bookmark-white_icon-icons.com_73653.png" alt="Save Icon" /></button>
+                <button id="rate-button">Rate <img src="https://img.icons8.com/ios-filled/50/000000/star--v1.png" alt="Rate Icon" /></button>
+                <button id="share-button">Share <img src="https://img.icons8.com/ios-filled/50/000000/share--v1.png" alt="Share Icon" /></button>
+            </div>
+            <div class="recipe-layout">
+                <div id="text-content">
+                    <div id="ingredients">
+                        <h2>Ingredients</h2>
+                        <ul id="ingredients-list"></ul>
+                    </div>
+                    <div id="directions">
+                        <h2>Directions</h2>
+                        <ol id="directions-list"></ol>
+                    </div>
+                </div>
+                <div id="image-content">
+                    <div id="recipe-image">
+                        <img id="recipe-img" alt="Recipe Image">
+                    </div>
+                    <div id="additional-images">
+                        <!-- Placeholder for additional images, to be added dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="recipe_details.js"></script>
+</body>
+</html>

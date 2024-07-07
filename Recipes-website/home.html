@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pantry Palate</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <header>
+                <div class="container">
+                    <div class="logo">Pantry Palate</div>
+                    <nav>
+                        <ul class="navigation">
+                            <li><a href="home.html" target="_top" class="home">Home</a></li>
+                            <li class="dropdown">
+                                <a href="recipes.html" class="dropbtn">Recipes</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Appetizers</a>
+                                    <a href="#">Main Courses</a>
+                                    <a href="#">Side Dishes</a>
+                                    <a href="#">Desserts</a>
+                                    <a href="#">Beverages</a>
+                                    <a href="#" class="view-all">VIEW ALL</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">About</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Who are we</a>
+                                    <a href="#">How to add a recipe</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">Contact</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Subscribe</a>
+                                    <a href="#">Get Help</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="login">
+                        <a href="login.html" target="_self">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg" alt="Person Icon">
+                            <span>Log in</span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <section class="first">
+            <div class="container">
+                <h1>Which ingredients do you have</h1>
+                <div class="search-bar">
+                <input type="text" id="ingredients-input" placeholder="Enter your available ingredients">
+                <button id="add-ingredients">Add</button>
+                <button class="explore-btn">Explore Recipies</button>
+                </div>
+                <div id="ingredients-list"></div>
+            </div>
+            </section>
+            <script src="script.js"></script>
+    </body>
+</html>
